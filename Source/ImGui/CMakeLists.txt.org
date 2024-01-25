@@ -1,0 +1,29 @@
+
+add_library(ImGui OBJECT imgui.cpp
+                        ../Headers/imgui.h
+                        ../Headers/ImGui_NoteEditor.hpp
+                        ../Headers/imconfig.h
+                        ../Headers/imstb_truetype.h
+                        ../Headers/imgui_internal.h
+                        ../Headers/imstb_rectpack.h
+                        ../Headers/imstb_textedit.h
+                        ../Headers/imgui_impl_sdl3.h
+                        ../Headers/imgui_impl_opengl3.h
+                        ../Headers/FileManager.hpp
+                        ImGui_NoteEditor.cpp                     
+						imgui_menu.cpp
+						ImGui_FileManager.hpp
+						ImGui_FileManager.cpp
+						ImGui_NoteManager.hpp
+						ImGui_NoteManager.cpp									
+						imgui_draw.cpp
+						imgui_tables.cpp 
+						imgui_widgets.cpp
+						imgui_stdlib.h
+						imgui_stdlib.cpp
+						../driver/FileManager.cpp
+						ImGui_Imple/imgui_impl_sdl3.cpp
+						ImGui_Imple/imgui_impl_opengl3.cpp	
+						)
+
+
